@@ -1,5 +1,5 @@
 {
-  "version": "1.0.0-beta-4922",
+  "version": "1.0.1.1",
   "authors": [
     "Andrea Martinelli"
   ],
@@ -12,14 +12,10 @@
   "compile": [],
   "frameworks": {
     "net35": {},
-    "net40": {
-      "frameworkAssemblies": {
-        "System.Runtime": "4.0.0.0"
-      }
-    },
-    "dotnet": {
+    "net40": {},
+    "netstandard1.3": {
       "dependencies": {
-        "System.Runtime": "4.0.0"
+        "System.Runtime": "4.1"
       }
     }
   }
